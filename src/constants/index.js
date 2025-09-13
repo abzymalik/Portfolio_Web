@@ -126,7 +126,7 @@ const projects = [
     title: "Arabic YouTube Transcript Translator",
     desc: "Distributed pipeline with Celery and Redis to fetch, translate, and export SRT PDF and Markdown.",
     stack: ["Python", "Flask", "Celery", "Redis", "OAuth"],
-    image: "/images/projects/translator.png",
+    image: "images/projects/ArabicYTtranslator.png",
     live: "",
     repo: "https://github.com/abzymalik/arabic-yt-translator"
   },
@@ -142,9 +142,9 @@ const projects = [
     title: "Morse Code Decoder",
     desc: "Built a Morse Code Decoder in C for microcontrollers, capable of translating encoded signals into text in real time. Designed with efficient algorithms to ensure accurate decoding and full compliance with project requirements.",
     stack: ["C", "Microcontrollers", "Embedded Systems"],
-    image: "/images/projects/compsoc.png",
+    image: "public/images/projects/MorseCodeDecoder.png",
     live: "",                           // add your link if live
-    repo: "https://github.com/surreycompsoc"
+    repo: "https://github.com/abzymalik/MorseCode--Decoder"
   },
   {
     title: "OS Scheduler",
