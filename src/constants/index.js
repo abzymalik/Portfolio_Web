@@ -128,7 +128,7 @@ const projects = [
     stack: ["Nuxt", "Vue", "SCSS", "GitHub Actions"],
     image: "/images/projects/compsoc.png",
     live: "",                           // add your link if live
-    repo: "https://github.com/abzymalik/comp-soc-site"
+    repo: "https://github.com/surreycompsoc"
   },
   {
     title: "Arabic YouTube Transcript Translator",
