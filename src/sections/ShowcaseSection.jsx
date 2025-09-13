@@ -44,47 +44,28 @@ const AppShowcase = () => {
   }, []);
 
   return (
-    <div id="work" ref={sectionRef} className="app-showcase">
-      <div className="w-full">
-        <div className="showcaselayout">
-          <div ref={rydeRef} className="first-project-wrapper">
-            <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
-            </div>
-            <div className="text-content">
-              <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
-              </h2>
-              <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
-              </p>
-            </div>
-          </div>
+    <section id="about me" ref={sectionRef} className="max-w-5xl mx-auto px-4 py-16">
+      <h2 className="text-3xl md:text-4xl font-semibold mb-6">About</h2>
+  
+      <p className="text-lg leading-8 opacity-90">
+      Hi, I’m a BSc Computer Science student at the University of Surrey, currently preparing for my second year
+      and an industrial placement. I’m passionate about software engineering and enjoy exploring the full spectrum of computer science, 
+      from building practical applications to understanding the theory that powers them.
+      I’ve gained experience working with Java, Python, C, JavaScript, and SQL, and I enjoy applying these skills across a variety of projects.
+      Some of my key highlights are showcased below!
+      </p>
+  
+      <p className="text-lg leading-8 opacity-90 mt-4">
+      Beyond coursework, I’m actively involved in my university community as a Student Ambassador, Course Representative, and CompSoc 
+      committee member, where I collaborate with students and staff to improve the academic and social experience. These roles have 
+      strengthened my teamwork, leadership, and communication skills alongside my technical growth.
+      </p>
 
-          <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#FFEFDB]">
-                <img
-                  src="/images/project2.png"
-                  alt="Library Management Platform"
-                />
-              </div>
-              <h2>The Library Management Platform</h2>
-            </div>
-
-            <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
-              </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+      <p className="text-lg leading-8 opacity-90 mt-4">
+      Right now, I’m focused on expanding my knowledge in cloud computing, DevOps, and AI/ML, while also refining my problem-solving skills through hackathons and side projects. I’m motivated by curiosity and the challenge of solving real-world problems with creative technical solutions.
+      </p>
+    </section>
+  );;
 };
 
 export default AppShowcase;
