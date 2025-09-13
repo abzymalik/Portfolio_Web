@@ -92,12 +92,13 @@ const expCards = [
     review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem solving mindset.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "Software Engineer Intern",
+    date: "June 2023 - July 2023",
     responsibilities: [
-      "Led the development of Docker web applications with focus on scalability.",
-      "Worked with backend engineers to integrate APIs with the frontend.",
-      "Contributed to open source projects used in the Docker ecosystem."
+      "Successfully led a team project to develop a confidence-building application that leveraged AI" +
+      "to help users enhance their interview performance and self-assurance.",
+      "Gained valuable exposure to various departments at Cisco, including digital marketing and networking, " +
+      "broadening my understanding of the tech industry’s diverse career pathways.",
     ]
   },
   {
