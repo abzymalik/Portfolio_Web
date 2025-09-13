@@ -9,7 +9,10 @@ const TechChip = ({ label }) => (
 
 const Projects = () => {
   return (
-    <section id="projects" className="section-padding md:mt-40 mt-20 xl:px-0 px-5">
+    <section
+      id="projects"
+      className="section-padding md:mt-40 mt-20 xl:px-0 px-5"
+    >
       <TitleHeader title="Projects" sub="Things I built" />
 
       <div className="mt-16 grid gap-8 sm:grid-cols-2 xl:grid-cols-3">
@@ -18,6 +21,7 @@ const Projects = () => {
             key={p.title}
             className="rounded-2xl border border-white/10 bg-white/5 hover:bg-white/10 transition-colors overflow-hidden"
           >
+            {/* Project thumbnail */}
             <div className="relative aspect-video overflow-hidden">
               <img
                 src={p.image}
@@ -27,25 +31,28 @@ const Projects = () => {
               />
             </div>
 
+            {/* Project details */}
             <div className="p-5 space-y-4">
               <div>
                 <h3 className="text-xl font-semibold">{p.title}</h3>
                 <p className="text-white/70 mt-2">{p.desc}</p>
               </div>
 
+              {/* Tech stack chips */}
               <div className="flex flex-wrap gap-2">
                 {p.stack.map((s, i) => (
                   <TechChip key={`${p.title}-stack-${i}`} label={s} />
                 ))}
               </div>
 
+              {/* Action buttons */}
               <div className="flex items-center gap-3 pt-2">
                 {p.live && (
                   <a
                     href={p.live}
                     target="_blank"
                     rel="noreferrer"
-                    className="px-3 py-2 rounded-lg border border-white/15 hover:border-white/30"
+                    className="px-3 py-2 rounded-lg border border-white/15 hover:border-white/30 transition-colors"
                   >
                     Live
                   </a>
@@ -55,7 +62,7 @@ const Projects = () => {
                     href={p.repo}
                     target="_blank"
                     rel="noreferrer"
-                    className="px-3 py-2 rounded-lg border border-white/15 hover:border-white/30"
+                    className="px-3 py-2 rounded-lg border border-white/15 hover:border-white/30 transition-colors"
                   >
                     Repo
                   </a>
