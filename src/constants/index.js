@@ -123,20 +123,28 @@ const expLogos = [
 /** New projects data */
 const projects = [
   {
+    title: "Arabic YouTube Transcript Translator",
+    desc: "Distributed pipeline with Celery and Redis to fetch, translate, and export SRT PDF and Markdown.",
+    stack: ["Python", "Flask", "Celery", "Redis", "OAuth"],
+    image: "/images/projects/translator.png",
+    live: "",
+    repo: "https://github.com/abzymalik/arabic-yt-translator"
+  },
+  {
     title: "CompSoc Website",
     desc: "Nuxt and Vue platform for events and announcements with CI CD and improved UX for students.",
-    stack: ["Nuxt", "Vue", "SCSS", "GitHub Actions"],
+    stack: ["Nuxt", "Vue", "SCSS"],
     image: "/images/projects/compsoc.png",
     live: "",                           // add your link if live
     repo: "https://github.com/surreycompsoc"
   },
   {
-    title: "Arabic YouTube Transcript Translator",
-    desc: "Distributed pipeline with Celery and Redis to fetch, translate, and export SRT PDF and Markdown.",
-    stack: ["Python", "Celery", "Redis", "OAuth"],
-    image: "/images/projects/translator.png",
-    live: "",
-    repo: "https://github.com/abzymalik/arabic-yt-translator"
+    title: "Morse Code Decoder",
+    desc: "Built a Morse Code Decoder in C for microcontrollers, capable of translating encoded signals into text in real time. Designed with efficient algorithms to ensure accurate decoding and full compliance with project requirements.",
+    stack: ["C", "Microcontrollers", "Embedded Systems"],
+    image: "/images/projects/compsoc.png",
+    live: "",                           // add your link if live
+    repo: "https://github.com/surreycompsoc"
   },
   {
     title: "OS Scheduler",
