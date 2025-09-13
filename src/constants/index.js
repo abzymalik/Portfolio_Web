@@ -144,7 +144,7 @@ const projects = [
     stack: ["Java", "JUnit"],
     image: "/images/projects/os-scheduler.png",
     live: "",
-    repo: "https://github.com/abzymalik/os-scheduler"
+    repo: "https://github.com/abzymalik/OS"
   }
 ];
 
