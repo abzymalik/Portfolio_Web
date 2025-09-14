@@ -88,7 +88,7 @@ const expCards = [
     ]
   },
   {
-    logoPath: "images/logos/Cisco Logo.png",
+    logoPath: "public/images/logos/cisco logo.png",
     title: "Software Engineer Intern",
     date: "June 2023 - July 2023",
     responsibilities: [
