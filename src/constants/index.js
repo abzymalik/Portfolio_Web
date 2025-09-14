@@ -101,7 +101,7 @@ const expCards = [
   },
   {
     // if your file has a space, either rename to cisco-logo.png or URL-encode:
-    logoPath: "/images/logos/cisco-logo.png",
+    logoPath: "/images/logos/cisco logo.png",
     title: "Software Engineer Intern",
     company: "Cisco",
     location: "Reading, UK",
