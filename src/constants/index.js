@@ -89,7 +89,6 @@ const expCards = [
     ]
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem solving mindset.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
     title: "Software Engineer Intern",
@@ -102,7 +101,6 @@ const expCards = [
     ]
   },
   {
-    review: "Adrian’s work on Appwrite mobile app brought a high level of quality and efficiency.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
     title: "React Native Developer",
