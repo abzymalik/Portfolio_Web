@@ -72,6 +72,7 @@ const techStackIcons = [
 ];
 
 const expCards = [
+  
   {
     logoPath: "/images/logo1.png",
     title: "CompSoc Web Developer",
@@ -98,16 +99,6 @@ const expCards = [
       "broadening my understanding of the tech industry’s diverse career pathways.",
     ]
   },
-  {
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2020 - May 2021",
-    responsibilities: [
-      "Built cross platform mobile apps with React Native using Appwrite services.",
-      "Improved app performance and UX through code optimization and testing.",
-      "Implemented features based on product feedback in tight sprints."
-    ]
-  }
 ];
 
 const expLogos = [
