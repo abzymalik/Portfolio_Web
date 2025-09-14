@@ -67,7 +67,7 @@ const Experience = () => {
         <div className="mt-32 relative">
           <div className="relative z-50 xl:space-y-32 space-y-10">
             {expCards.map((card) => (
-              <div key={card.title} className="exp-card-wrapper">
+              <div key={card.title} className="exp-card-wrapper timeline-card">
                 {/* Timeline + text only */}
                 <div className="xl:w-full">
                   <div className="flex items-start relative">
@@ -84,6 +84,10 @@ const Experience = () => {
 
                       <div>
                         <h1 className="font-semibold text-3xl">{card.title}</h1>
+                        {/* Company name in italics */}
+                        <p className="text-gray-300 text-sm italic mt-1">
+                          {card.company}
+                        </p>
                         <p className="my-5 text-white-50">🗓️&nbsp;{card.date}</p>
 
                         <p className="text-[#839CB5] italic">Responsibilities</p>
