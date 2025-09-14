@@ -1,5 +1,5 @@
 const navLinks = [
-  { name: "About", link: "#about me" },
+  { name: "About", link: "#about" },
   { name: "Experience", link: "#experience" },
   { name: "Projects", link: "#projects" },
   { name: "Skills", link: "#skills" }
@@ -76,21 +76,18 @@ const expCards = [
     logoPath: "/images/logos/tidaltasksailogo.png",
     title: "Software Engineer Intern",
     company: "TidalTasks AI",
-    location: " Ontario, Canada - Remote",
+    location: "Ontario, Canada · Remote",
     date: "September 2025 - Present",
     responsibilities: [
-      "Achieved a 25% increase in page load speed and higher engagement from 50+ active users, " + 
-      "through refactoring 12+ components and optimizing state management, using React.js.",
-      "Achieved a 20% reduction in server load and improved system reliability, through removing 150+ "  +
-      "redundant API requests, using a Python script integrated with Firebase."
+      "Achieved a 25% increase in page load speed and higher engagement from 50+ active users, through refactoring 12+ components and optimizing state management, using React.js.",
+      "Achieved a 20% reduction in server load and improved system reliability, through removing 150+ redundant API requests, using a Python script integrated with Firebase."
     ]
   },
-
   {
     logoPath: "/images/logos/surrey_compsoc_logo.png",
     title: "CompSoc Web Developer",
     company: "University of Surrey Computer Science Society",
-    location: "Guildford, UK - Hybrid",
+    location: "Guildford, UK · Hybrid",
     date: "September 2025 - Present",
     uiShots: [
       "/images/logos/compsoc-logo.jpeg",
@@ -98,25 +95,22 @@ const expCards = [
       "/images/hostinger-3.png"
     ],
     responsibilities: [
-      "Achieved delivery and maintenance of user-facing features for the society website," +
-      "through collaboration with committee members, using React and JavaScript.",
-      "Achieved seamless user experiences, through close collaboration with UI and UX designers, " +
-      "using design-driven development practices.",
+      "Achieved delivery and maintenance of user-facing features for the society website, through collaboration with committee members, using React and JavaScript.",
+      "Achieved seamless user experiences, through close collaboration with UI and UX designers, using design-driven development practices."
     ]
   },
   {
-    logoPath: "public/images/logos/cisco logo.png",
+    // if your file has a space, either rename to cisco-logo.png or URL-encode:
+    logoPath: "/images/logos/cisco-logo.png",
     title: "Software Engineer Intern",
     company: "Cisco",
-    location: " Reading, UK",
+    location: "Reading, UK",
     date: "June 2023 - July 2023",
     responsibilities: [
-      "Successfully led a team project to develop a confidence-building application that leveraged AI " +
-      "to help users enhance their interview performance and self-assurance.",
-      "Gained valuable exposure to various departments at Cisco, including digital marketing and networking, " +
-      "broadening my understanding of the tech industry’s diverse career pathways.",
+      "Successfully led a team project to develop a confidence-building application that leveraged AI to help users enhance their interview performance and self-assurance.",
+      "Gained valuable exposure to various departments at Cisco, including digital marketing and networking, broadening my understanding of the tech industry’s diverse career pathways."
     ]
-  },
+  }
 ];
 
 const expLogos = [
@@ -125,13 +119,12 @@ const expLogos = [
   { name: "logo3", imgPath: "/images/logo3.png" }
 ];
 
-/** New projects data */
 const projects = [
   {
     title: "Arabic YouTube Transcript Translator",
     desc: "Distributed pipeline with Celery and Redis to fetch, translate, and export SRT PDF and Markdown.",
     stack: ["Python", "Flask", "Celery", "Redis", "OAuth"],
-    image: "images/projects/ArabicYTtranslator.png",
+    image: "/images/projects/ArabicYTtranslator.png",
     live: "",
     repo: "https://github.com/abzymalik/arabic-yt-translator"
   },
@@ -139,16 +132,16 @@ const projects = [
     title: "CompSoc Website",
     desc: "Nuxt and Vue platform for events and announcements with CI CD and improved UX for students.",
     stack: ["Nuxt", "Vue", "SCSS"],
-    image: "public/images/CompSoc Project.png",
-    live: "",                           // add your link if live
+    image: "/images/CompSoc Project.png",
+    live: "",
     repo: "https://github.com/surreycompsoc"
   },
   {
     title: "Morse Code Decoder",
     desc: "Built a Morse Code Decoder in C for microcontrollers, capable of translating encoded signals into text in real time. Designed with efficient algorithms to ensure accurate decoding and full compliance with project requirements.",
     stack: ["C", "Microcontrollers", "Embedded Systems"],
-    image: "public/images/projects/MorseCodeDecoder.png",
-    live: "",                           // add your link if live
+    image: "/images/projects/MorseCodeDecoder.png",
+    live: "",
     repo: "https://github.com/abzymalik/MorseCode--Decoder"
   },
   {
@@ -161,14 +154,14 @@ const projects = [
   }
 ];
 
-const testimonials = [
-  // keep or remove if you no longer render this section
-];
-
 const socialImgs = [
-  { name: "email", imgPath: "/images/logos/email_logo.png", link: "mailto:malik.abdul0786@outlook.com" },
-  { name: "github", imgPath: "/images/github_logo.png", link: "https://github.com/abzymalik"},
-  { name: "linkedin", imgPath: "/images/linkedin.png", link: "https://www.linkedin.com/in/abzimo-malik/ "}
+  {
+    name: "email",
+    imgPath: "/images/logos/email_logo.png",
+    link: "mailto:malik.abdul0786@outlook.com?subject=Hello%20from%20your%20portfolio&body=Hi%20Abdul%2C"
+  },
+  { name: "github", imgPath: "/images/github_logo.png", link: "https://github.com/abzymalik" },
+  { name: "linkedin", imgPath: "/images/linkedin.png", link: "https://www.linkedin.com/in/abzimo-malik/" }
 ];
 
 export {
@@ -178,7 +171,6 @@ export {
   counterItems,
   expCards,
   expLogos,
-  testimonials,
   socialImgs,
   techStackIcons,
   techStackImgs,
