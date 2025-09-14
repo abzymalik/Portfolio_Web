@@ -104,7 +104,7 @@ const expCards = [
     title: "Software Engineer Intern",
     date: "June 2023 - July 2023",
     responsibilities: [
-      "Successfully led a team project to develop a confidence-building application that leveraged AI" +
+      "Successfully led a team project to develop a confidence-building application that leveraged AI " +
       "to help users enhance their interview performance and self-assurance.",
       "Gained valuable exposure to various departments at Cisco, including digital marketing and networking, " +
       "broadening my understanding of the tech industry’s diverse career pathways.",
