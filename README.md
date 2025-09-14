@@ -104,5 +104,3 @@ Assets and snippets used in the project can be found in the **[video kit](https:
   <img src="public/images/readme-video-kit.png" alt="Video Kit Banner">
 </a>
 
-
-## <a name="more">🚀 More</a>
