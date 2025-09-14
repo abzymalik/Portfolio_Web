@@ -13,7 +13,7 @@ const Projects = () => {
       id="projects"
       className="section-padding md:mt-40 mt-20 xl:px-0 px-5"
     >
-      <TitleHeader title="Projects" sub="Things I built" />
+      <TitleHeader title="Projects" sub={"💻 I’ve built and contributed to"} />
 
       <div className="mt-16 grid gap-8 sm:grid-cols-2 xl:grid-cols-3">
         {projects.map((p) => (
