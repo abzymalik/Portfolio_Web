@@ -101,7 +101,7 @@ const expCards = [
   {
     logoPath: "/images/logo3.png",
     title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    date: "March 2020 - May 2021",
     responsibilities: [
       "Built cross platform mobile apps with React Native using Appwrite services.",
       "Improved app performance and UX through code optimization and testing.",
