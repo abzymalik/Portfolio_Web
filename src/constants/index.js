@@ -161,7 +161,8 @@ const socialImgs = [
     link: "mailto:malik.abdul0786@outlook.com?subject=Hello%20from%20your%20portfolio&body=Hi%20Abdul%2C"
   },
   { name: "github", imgPath: "/images/github_logo.png", link: "https://github.com/abzymalik" },
-  { name: "linkedin", imgPath: "/images/linkedin.png", link: "https://www.linkedin.com/in/abzimo-malik/" }
+  { name: "linkedin", imgPath: "/images/linkedin.png", link: "https://www.linkedin.com/in/abzimo-malik/" },
+  { name: "cv", imgPath: "/images/logos/cv.png", link: "/cv/Abdul_s_Resume.pdf", download: "Abdul_s_Resume.pdf" }
 ];
 
 export {
@@ -173,7 +174,7 @@ export {
   expLogos,
   socialImgs,
   techStackIcons,
-  techStackImgs,
+  techStackImgs,  
   navLinks,
   projects
 };
