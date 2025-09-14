@@ -73,7 +73,6 @@ const techStackIcons = [
 
 const expCards = [
   {
-    imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
     title: "CompSoc Web Developer",
     date: "September 2025 - Present",
@@ -89,8 +88,7 @@ const expCards = [
     ]
   },
   {
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
+    logoPath: "images/logos/Cisco Logo.png",
     title: "Software Engineer Intern",
     date: "June 2023 - July 2023",
     responsibilities: [
@@ -101,7 +99,6 @@ const expCards = [
     ]
   },
   {
-    imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
     title: "React Native Developer",
     date: "March 2019 - May 2020",
