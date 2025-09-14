@@ -77,9 +77,10 @@ const expCards = [
     title: "Software Engineer Intern",
     date: "September 2025 - Present",
     responsibilities: [
-      "Built cross platform mobile apps with React Native using Appwrite services.",
-      "Improved app performance and UX through code optimization and testing.",
-      "Implemented features based on product feedback in tight sprints."
+      "Achieved a 25% increase in page load speed and higher engagement from 50+ active users, " + 
+      "through refactoring 12+ components and optimizing state management, using React.js.",
+      "Achieved a 20% reduction in server load and improved system reliability, through removing 150+ "  +
+      "redundant API requests, using a Python script integrated with Firebase."
     ]
   },
 
