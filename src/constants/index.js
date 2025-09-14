@@ -72,7 +72,17 @@ const techStackIcons = [
 ];
 
 const expCards = [
-  
+  {
+    logoPath: "/images/logo3.png",
+    title: "Software Engineer Intern",
+    date: "September 2025 - Present",
+    responsibilities: [
+      "Built cross platform mobile apps with React Native using Appwrite services.",
+      "Improved app performance and UX through code optimization and testing.",
+      "Implemented features based on product feedback in tight sprints."
+    ]
+  },
+
   {
     logoPath: "/images/logo1.png",
     title: "CompSoc Web Developer",
