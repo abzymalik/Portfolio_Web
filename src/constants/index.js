@@ -139,7 +139,7 @@ const projects = [
     title: "CompSoc Website",
     desc: "Nuxt and Vue platform for events and announcements with CI CD and improved UX for students.",
     stack: ["Nuxt", "Vue", "SCSS"],
-    image: "/images/projects/compsoc.png",
+    image: "public/images/CompSoc Project.png",
     live: "",                           // add your link if live
     repo: "https://github.com/surreycompsoc"
   },
