@@ -73,8 +73,9 @@ const techStackIcons = [
 
 const expCards = [
   {
-    logoPath: "/images/logo3.png",
+    logoPath: "/images/logos/tidaltasksailogo.png",
     title: "Software Engineer Intern",
+    company: "TidalTasks — Remote, Canada",
     date: "September 2025 - Present",
     responsibilities: [
       "Achieved a 25% increase in page load speed and higher engagement from 50+ active users, " + 
@@ -85,8 +86,9 @@ const expCards = [
   },
 
   {
-    logoPath: "/images/logo1.png",
+    logoPath: "/images/logos/surrey_compsoc_logo.png",
     title: "CompSoc Web Developer",
+    company: "University of Surrey Computer Science Society",
     date: "September 2025 - Present",
     uiShots: [
       "/images/logos/compsoc-logo.jpeg",
