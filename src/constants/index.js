@@ -166,9 +166,8 @@ const testimonials = [
 ];
 
 const socialImgs = [
-  { name: "insta", imgPath: "/images/insta.png" },
-  { name: "fb", imgPath: "/images/fb.png" },
-  { name: "github", imgPath: "/images/Github.png", link: "https://github.com/abzymalik"},
+  { name: "email", imgPath: "/images/logos/email_logo.png", link: "mailto:malik.abdul0786@outlook.com" },
+  { name: "github", imgPath: "/images/github_logo.png", link: "https://github.com/abzymalik"},
   { name: "linkedin", imgPath: "/images/linkedin.png", link: "https://www.linkedin.com/in/abzimo-malik/ "}
 ];
 
