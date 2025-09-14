@@ -12,7 +12,7 @@ const Footer = () => {
         {/* Social icons */}
         <div className="socials flex gap-4">
           {socialImgs.map((socialImg, index) =>
-            socialImg.link ? ( // only render if link exists
+            socialImg.link ? (
               <a
                 key={index}
                 href={socialImg.link}
