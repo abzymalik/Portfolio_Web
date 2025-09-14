@@ -93,9 +93,10 @@ const expCards = [
       "/images/hostinger-3.png"
     ],
     responsibilities: [
-      "Developed and maintained user facing features for the society website.",
-      "Collaborated closely with UI and UX designers to ensure seamless user experiences.",
-      "Optimized web applications for speed and scalability using React and JavaScript."
+      "Achieved delivery and maintenance of user-facing features for the society website," +
+      "through collaboration with committee members, using React and JavaScript.",
+      "Achieved seamless user experiences, through close collaboration with UI and UX designers, " +
+      "using design-driven development practices.",
     ]
   },
   {
