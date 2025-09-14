@@ -75,7 +75,8 @@ const expCards = [
   {
     logoPath: "/images/logos/tidaltasksailogo.png",
     title: "Software Engineer Intern",
-    company: "TidalTasks — Remote, Canada",
+    company: "TidalTasks AI",
+    location: " Ontario, Canada - Remote",
     date: "September 2025 - Present",
     responsibilities: [
       "Achieved a 25% increase in page load speed and higher engagement from 50+ active users, " + 
@@ -89,6 +90,7 @@ const expCards = [
     logoPath: "/images/logos/surrey_compsoc_logo.png",
     title: "CompSoc Web Developer",
     company: "University of Surrey Computer Science Society",
+    location: "Guildford, UK - Hybrid",
     date: "September 2025 - Present",
     uiShots: [
       "/images/logos/compsoc-logo.jpeg",
@@ -105,6 +107,8 @@ const expCards = [
   {
     logoPath: "public/images/logos/cisco logo.png",
     title: "Software Engineer Intern",
+    company: "Cisco",
+    location: " Reading, UK",
     date: "June 2023 - July 2023",
     responsibilities: [
       "Successfully led a team project to develop a confidence-building application that leveraged AI " +

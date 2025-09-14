@@ -84,10 +84,13 @@ const Experience = () => {
 
                       <div>
                         <h1 className="font-semibold text-3xl">{card.title}</h1>
-                        {/* Company name in italics */}
-                        <p className="text-gray-300 text-sm italic mt-1">
-                          {card.company}
-                        </p>
+
+                        {/* Company + Location side by side */}
+                        <div className="flex justify-between items-center mt-1">
+                          <p className="text-gray-300 text-sm italic">{card.company}</p>
+                          <p className="text-gray-400 text-sm">{card.location}</p>
+                        </div>
+
                         <p className="my-5 text-white-50">🗓️&nbsp;{card.date}</p>
 
                         <p className="text-[#839CB5] italic">Responsibilities</p>
