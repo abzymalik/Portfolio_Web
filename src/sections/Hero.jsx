@@ -14,13 +14,20 @@ const Hero = () => {
     );
   });
 
+  // Smooth scroll handler for "See My Work"
+  const handleSeeMyWork = () => {
+    const el = document.querySelector("#projects");
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
   return (
     <section id="hero" className="relative overflow-hidden">
-      <div className="absolute top-0 left-0 z-10">
+      {/* Background behind everything */}
+      <div className="absolute top-0 left-0 z-0 pointer-events-none">
         <img src="/images/bg.png" alt="" />
       </div>
 
-      <div className="hero-layout">
+      <div className="hero-layout relative z-10">
         {/* LEFT: Hero Content */}
         <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
           <div className="flex flex-col gap-7">
@@ -54,10 +61,11 @@ const Hero = () => {
               code.
             </p>
 
+            {/* Button that scrolls to Projects */}
             <Button
               text="See My Work"
               className="md:w-80 md:h-16 w-60 h-12"
-              id="counter"
+              onClick={handleSeeMyWork}
             />
           </div>
         </header>
@@ -69,7 +77,6 @@ const Hero = () => {
           </div>
         </figure>
       </div>
-
     </section>
   );
 };
