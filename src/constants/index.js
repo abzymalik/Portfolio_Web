@@ -150,10 +150,20 @@ const projects = [
     title: "Multithreaded OS Scheduler and File Utilities",
     desc:
       "Coursework with a Java simulation of CPU scheduling algorithms using multithreading and real time process state management, plus a UNIX style utility suite implementing cat, wc, sort, and uniq with pipelines.",
-    stack: ["Java", "Python", "Multithreading", "File I O", "JUnit", "UNIX"],
+    stack: ["Java", "Python", "Multithreading", "File I/O", "JUnit", "UNIX"],
     image: "/images/projects/os-scheduler.png",
     live: "",
     repo: "https://github.com/abzymalik/OS"
+  },
+  {
+    title: "FlickFinder API",
+    desc:
+      "Built a RESTful back-end using Java and Javalin for a potential movie searching application. Implemented and tested endpoints for retrieving movies, people, and ratings from a large SQLite database. " +
+      "Followed MVC structure and used unit/integration testing with JUnit.",
+    stack: ["Java", "Javalin", "SQLite", "JUnit", "MVC"],
+    image: "/images/projects/flickfinder_api.png",
+    live: "",
+    repo: "https://github.com/abzymalik/FlickFinder---RESTful-API-"
   }
 ];
 
