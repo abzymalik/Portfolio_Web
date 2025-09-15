@@ -48,7 +48,7 @@ const AppShowcase = () => {
       <h2 className="text-3xl md:text-4xl font-semibold mb-6">ABOUT ME</h2>
   
       <p className="text-lg leading-8 opacity-90">
-      Hi, I’m a Computer Science BSc student at the University of Surrey, currently preparing for my second year
+      I’m a Computer Science BSc student at the University of Surrey, currently preparing for my second year
       and an industrial placement. I’m passionate about software engineering and enjoy exploring the full spectrum of computer science, 
       from building practical applications to understanding the theory that powers them.
       I’ve gained experience working with Java, Python, C, JavaScript, and SQL, and I enjoy applying these skills across a variety of projects.
