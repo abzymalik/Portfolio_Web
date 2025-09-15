@@ -11,8 +11,8 @@ const navLinks = [
 const words = [
   { text: "software engineer", imgPath: "/images/ideas.svg" },
   { text: "problem solver", imgPath: "/images/concepts.svg" },
-  { text: "Tech Enthusiast", imgPath: "/images/designs.svg" },
-  { text: "Computer Science Student", imgPath: "/images/code.svg" }
+  { text: "tech enthusiast", imgPath: "/images/designs.svg" },
+  { text: "computer science student", imgPath: "/images/code.svg" }
 ];
 
 const logoIconsList = [
@@ -122,13 +122,8 @@ const projects = [
       "Tailwind CSS",
       "Node.js",
       "Express.js",
-      "yt-dlp",
-      "FFmpeg",
-      "YouTube Data API",
       "Azure Speech SDK (Arabic)",
       "OpenAI GPT",
-      "Markdown PDF SRT",
-      "AWS planned"
     ],
     image: "/images/projects/ArabicYTtranslator.png",
     live: "",
