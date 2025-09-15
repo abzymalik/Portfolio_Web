@@ -14,7 +14,6 @@ const Hero = () => {
     );
   });
 
-  // Smooth scroll handler for "See My Work"
   const handleSeeMyWork = () => {
     const el = document.querySelector("#projects");
     if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -22,13 +21,13 @@ const Hero = () => {
 
   return (
     <section id="hero" className="relative overflow-hidden">
-      {/* Background behind everything */}
+      {/* background behind everything and non interactive */}
       <div className="absolute top-0 left-0 z-0 pointer-events-none">
         <img src="/images/bg.png" alt="" />
       </div>
 
       <div className="hero-layout relative z-10">
-        {/* LEFT: Hero Content */}
+        {/* LEFT content */}
         <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
           <div className="flex flex-col gap-7">
             <div className="hero-text">
@@ -57,11 +56,9 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Abdul, a developer based in the UK with a passion for
-              code.
+              Hi, I’m Abdul, a developer based in the UK with a passion for code.
             </p>
 
-            {/* Button that scrolls to Projects */}
             <Button
               text="See My Work"
               className="md:w-80 md:h-16 w-60 h-12"
@@ -70,9 +67,15 @@ const Hero = () => {
           </div>
         </header>
 
-        {/* RIGHT: 3D Model or Visual */}
-        <figure>
-          <div className="hero-3d-layout">
+        {/* RIGHT 3D area with reduced interactive hitbox */}
+        <figure className="pointer-events-none flex justify-center md:justify-end">
+          <div
+            className="
+              pointer-events-auto
+              w-[520px] md:w-[560px] lg:w-[620px]
+              h-[360px] md:h-[420px] lg:h-[520px]
+            "
+          >
             <HeroExperience />
           </div>
         </figure>
