@@ -164,6 +164,17 @@ const projects = [
     image: "/images/projects/flickfinder_api.png",
     live: "",
     repo: "https://github.com/abzymalik/FlickFinder---RESTful-API-"
+  },
+  {
+    title: "StockifyXpert",
+    desc:
+      "StockifyXpert is a Python-based desktop application designed and developed for a local SME in my area to streamline their day-to-day inventory management. " +
+      "Instead of relying on manual spreadsheets, the app provides a lightweight yet reliable solution with a MySQL backend and a modern CustomTkinter GUI. It supports secure " +
+      "user authentication, real-time database operations, and a built-in translation helper for better accessibility.",
+    stack: ["Python", "GUI CustomTkinter", "MySQL", "Googletrans API"],
+    image: "",
+    live: "",
+    repo: "https://github.com/abzymalik/StockifyXpert"
   }
 ];
 
