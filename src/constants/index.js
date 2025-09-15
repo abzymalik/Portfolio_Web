@@ -35,18 +35,19 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high quality results while maintaining attention to every detail."
+    title: "Clean Code",
+    desc: "Writing scalable, well-structured, and maintainable code with a focus on clarity and long-term usability."
+    
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity."
+    title: "Continuous Learning",
+    desc: "Adapting to new technologies, frameworks, and best practices to stay ahead in modern software development."
   },
   {
     imgPath: "/images/time.png",
-    title: "On Time Delivery",
-    desc: "Making sure projects are completed on schedule with quality and care."
+    title: "Impact-Driven",
+    desc: "Building projects that solve real-world problems, improve accessibility, and create meaningful digital experiences.."
   }
 ];
 
@@ -111,8 +112,10 @@ const expCards = [
 const projects = [
   {
     title: "Arabic YouTube Transcript Translator",
-    desc: "Distributed pipeline with Celery and Redis to fetch, translate, and export SRT PDF and Markdown.",
-    stack: ["Python", "Flask", "Celery", "Redis", "OAuth"],
+    desc: "A full-stack web application that automates transcription and translation of Arabic YouTube videos into English. Users can paste a YouTube link, " +
+    "select start and end times, and generate accurate, time-stamped transcripts. The pipeline downloads and processes audio, performs Arabic speech recognition, " +
+    "translates transcripts into English, and exports results in multiple formats (SRT, Markdown, PDF). Designed to make Arabic video content more accessible, especially for non-Arabic speakers and readers.",
+    stack: ["React (Vite)", "Tailwind CSS", "Node.js", "Express.js", "Microsoft Azure Speech SDK (Arabic)", "OpenAI GPT models"],
     image: "/images/projects/ArabicYTtranslator.png",
     live: "",
     repo: "https://github.com/abzymalik/arabic-yt-translator"
@@ -127,16 +130,18 @@ const projects = [
   },
   {
     title: "Morse Code Decoder",
-    desc: "Built a Morse Code Decoder in C for microcontrollers, capable of translating encoded signals into text in real time. Designed with efficient algorithms to ensure accurate decoding and full compliance with project requirements.",
-    stack: ["C", "Microcontrollers", "Embedded Systems"],
+    desc: "This embedded systems project implements a fully functional Morse Code decoder using a Raspberry Pi Pico and various hardware components" +
+    "including a 7-segment display, buzzer, RGB LED, button, and potentiometer. The system interprets Morse inputs and outputs corresponding characters in real time.",
+    stack: ["C", "Raspberry Pi"],
     image: "/images/projects/MorseCodeDecoder.png",
     live: "",
     repo: "https://github.com/abzymalik/MorseCode--Decoder"
   },
   {
-    title: "OS Scheduler",
-    desc: "Java implementation of FCFS Priority and Round Robin scheduling with tests and CLI.",
-    stack: ["Java", "JUnit"],
+    title: "Multithreaded OS Scheduler & File Utilities",
+    desc: "Coursework project involving two core components: a Java-based simulation of CPU scheduling algorithms using multithreading " +
+    "and real-time process state management; and a UNIX-style command-line utility suite implementing commands like `cat`, `wc`, `sort`, and `uniq`, with support for pipelining.",
+    stack: ["Java", "Python", "Multithreading", "File I/O", "JUnit", "UNIX"],
     image: "/images/projects/os-scheduler.png",
     live: "",
     repo: "https://github.com/abzymalik/OS"
