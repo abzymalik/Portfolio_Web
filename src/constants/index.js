@@ -2,7 +2,7 @@
 import { Code2, BookOpen, Globe } from "lucide-react";
 
 const navLinks = [
-  { name: "About", link: "#about" },
+  { name: "About", link: "#about me" },
   { name: "Experience", link: "#experience" },
   { name: "Projects", link: "#projects" },
   { name: "Skills", link: "#skills" }
