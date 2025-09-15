@@ -9,14 +9,10 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" }
+  { text: "software engineer", imgPath: "/images/ideas.svg" },
+  { text: "problem solver", imgPath: "/images/concepts.svg" },
+  { text: "Tech Enthusiast", imgPath: "/images/designs.svg" },
+  { text: "Computer Science Student", imgPath: "/images/code.svg" }
 ];
 
 const logoIconsList = [
