@@ -1,5 +1,8 @@
+
+import { Code2, BookOpen, Globe } from "lucide-react";
+
 const navLinks = [
-  { name: "About", link: "#about me" },
+  { name: "About", link: "#about" },
   { name: "Experience", link: "#experience" },
   { name: "Projects", link: "#projects" },
   { name: "Skills", link: "#skills" }
@@ -16,8 +19,6 @@ const words = [
   { text: "Code", imgPath: "/images/code.svg" }
 ];
 
-
-
 const logoIconsList = [
   { imgPath: "/images/logos/company-logo-1.png" },
   { imgPath: "/images/logos/company-logo-2.png" },
@@ -32,22 +33,28 @@ const logoIconsList = [
   { imgPath: "/images/logos/company-logo-11.png" }
 ];
 
+// abilities now use Lucide icons
 const abilities = [
   {
-    imgPath: "/images/seo.png",
+    Icon: Code2,
     title: "Clean Code",
-    desc: "Writing scalable, well-structured, and maintainable code with a focus on clarity and long-term usability."
-    
+    color: "text-yellow-400",
+    desc:
+      "Writing scalable, well structured, and maintainable code with a focus on clarity and long term usability."
   },
   {
-    imgPath: "/images/chat.png",
+    Icon: BookOpen,
     title: "Continuous Learning",
-    desc: "Adapting to new technologies, frameworks, and best practices to stay ahead in modern software development."
+    color: "text-green-400",
+    desc:
+      "Adapting to new technologies, frameworks, and best practices to stay ahead in modern software development."
   },
   {
-    imgPath: "/images/time.png",
-    title: "Impact-Driven",
-    desc: "Building projects that solve real-world problems, improve accessibility, and create meaningful digital experiences.."
+    Icon: Globe,
+    title: "Impact Driven",
+    color: "text-pink-400",
+    desc:
+      "Building projects that solve real world problems, improve accessibility, and create meaningful digital experiences."
   }
 ];
 
@@ -75,8 +82,8 @@ const expCards = [
     location: "Ontario, Canada · Remote",
     date: "September 2025 - Present",
     responsibilities: [
-      "Achieved a 25% increase in page load speed and higher engagement from 50+ active users, through refactoring 12+ components and optimizing state management, using React.js.",
-      "Achieved a 20% reduction in server load and improved system reliability, through removing 150+ redundant API requests, using a Python script integrated with Firebase."
+      "Achieved a 25% increase in page load speed and higher engagement from 50+ active users through refactoring 12+ components and optimizing state management with React.",
+      "Reduced server load by 20% by eliminating 150+ redundant API requests using a Python script integrated with Firebase."
     ]
   },
   {
@@ -91,20 +98,20 @@ const expCards = [
       "/images/hostinger-3.png"
     ],
     responsibilities: [
-      "Achieved delivery and maintenance of user-facing features for the society website, through collaboration with committee members, using React and JavaScript.",
-      "Achieved seamless user experiences, through close collaboration with UI and UX designers, using design-driven development practices."
+      "Delivered and maintained user facing features for the society website through collaboration with committee members using React and JavaScript.",
+      "Improved UX by working closely with designers and applying design driven development practices."
     ]
   },
   {
-    // if your file has a space, either rename to cisco-logo.png or URL-encode:
-    logoPath: "/images/logos/cisco logo.png",
+    // better to rename the file to cisco-logo.png or URL encode the space
+    logoPath: "/images/logos/cisco%20logo.png",
     title: "Software Engineer Intern",
     company: "Cisco",
     location: "Reading, UK",
     date: "June 2023 - July 2023",
     responsibilities: [
-      "Successfully led a team project to develop a confidence-building application that leveraged AI to help users enhance their interview performance and self-assurance.",
-      "Gained valuable exposure to various departments at Cisco, including digital marketing and networking, broadening my understanding of the tech industry’s diverse career pathways."
+      "Led a team project to build an AI powered confidence coaching app for interview preparation.",
+      "Gained exposure to multiple departments including digital marketing and networking."
     ]
   }
 ];
@@ -112,10 +119,21 @@ const expCards = [
 const projects = [
   {
     title: "Arabic YouTube Transcript Translator",
-    desc: "A full-stack web application that automates transcription and translation of Arabic YouTube videos into English. Users can paste a YouTube link, " +
-    "select start and end times, and generate accurate, time-stamped transcripts. The pipeline downloads and processes audio, performs Arabic speech recognition, " +
-    "translates transcripts into English, and exports results in multiple formats (SRT, Markdown, PDF). Designed to make Arabic video content more accessible, especially for non-Arabic speakers and readers.",
-    stack: ["React (Vite)", "Tailwind CSS", "Node.js", "Express.js", "Microsoft Azure Speech SDK (Arabic)", "OpenAI GPT models"],
+    desc:
+      "Full stack app that automates transcription and translation of Arabic YouTube videos into English. Paste a link, set start and end times, and generate accurate time stamped transcripts. Pipeline downloads audio, performs Arabic speech recognition, translates to English, and exports SRT, Markdown, and PDF.",
+    stack: [
+      "React (Vite)",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "yt-dlp",
+      "FFmpeg",
+      "YouTube Data API",
+      "Azure Speech SDK (Arabic)",
+      "OpenAI GPT",
+      "Markdown PDF SRT",
+      "AWS planned"
+    ],
     image: "/images/projects/ArabicYTtranslator.png",
     live: "",
     repo: "https://github.com/abzymalik/arabic-yt-translator"
@@ -130,18 +148,18 @@ const projects = [
   },
   {
     title: "Morse Code Decoder",
-    desc: "This embedded systems project implements a fully functional Morse Code decoder using a Raspberry Pi Pico and various hardware components" +
-    "including a 7-segment display, buzzer, RGB LED, button, and potentiometer. The system interprets Morse inputs and outputs corresponding characters in real time.",
+    desc:
+      "Embedded systems project using a Raspberry Pi Pico with a seven segment display, buzzer, RGB LED, button, and potentiometer. Decodes Morse input and outputs characters in real time.",
     stack: ["C", "Raspberry Pi"],
     image: "/images/projects/MorseCodeDecoder.png",
     live: "",
     repo: "https://github.com/abzymalik/MorseCode--Decoder"
   },
   {
-    title: "Multithreaded OS Scheduler & File Utilities",
-    desc: "Coursework project involving two core components: a Java-based simulation of CPU scheduling algorithms using multithreading " +
-    "and real-time process state management; and a UNIX-style command-line utility suite implementing commands like `cat`, `wc`, `sort`, and `uniq`, with support for pipelining.",
-    stack: ["Java", "Python", "Multithreading", "File I/O", "JUnit", "UNIX"],
+    title: "Multithreaded OS Scheduler and File Utilities",
+    desc:
+      "Coursework with a Java simulation of CPU scheduling algorithms using multithreading and real time process state management, plus a UNIX style utility suite implementing cat, wc, sort, and uniq with pipelines.",
+    stack: ["Java", "Python", "Multithreading", "File I O", "JUnit", "UNIX"],
     image: "/images/projects/os-scheduler.png",
     live: "",
     repo: "https://github.com/abzymalik/OS"
@@ -166,7 +184,7 @@ export {
   expCards,
   socialImgs,
   techStackIcons,
-  techStackImgs,  
+  techStackImgs,
   navLinks,
   projects
-};  
+};
