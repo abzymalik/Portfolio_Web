@@ -70,7 +70,7 @@ const expCards = [
   },
   {
     logoPath: "/images/logos/surrey_compsoc_logo.png",
-    title: "CompSoc Web Developer",
+    title: "Web Developer",
     company: "University of Surrey Computer Science Society",
     location: "Guildford, UK · Hybrid",
     date: "September 2025 - Present",
