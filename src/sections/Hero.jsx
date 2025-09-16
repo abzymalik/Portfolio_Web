@@ -126,10 +126,6 @@ const Hero = () => {
               </span>
             </h1>
 
-            <p className="hero-sub mt-6 max-w-2xl text-white/70 text-lg md:text-xl">
-              I build practical applications, explore systems and algorithms, and ship projects that create value.
-            </p>
-
             <div className="hero-cta mt-12 relative z-50 pointer-events-auto">
               <a
                 href="#projects"

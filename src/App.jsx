@@ -5,7 +5,6 @@ import Experience from "./sections/Experience";
 import Projects from "./sections/Projects";
 import Hero from "./sections/Hero";
 import ShowcaseSection from "./sections/ShowcaseSection";
-import LogoShowcase from "./sections/LogoShowcase";
 import FeatureCards from "./sections/FeatureCards";
 import Navbar from "./components/NavBar";
 
@@ -16,7 +15,6 @@ const App = () => (
 
     {/* About Me section */}
     <ShowcaseSection />
-    <LogoShowcase />
     <FeatureCards />
 
     {/* Experience then Projects then Skills */}
