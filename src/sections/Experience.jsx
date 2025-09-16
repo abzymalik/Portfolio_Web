@@ -77,18 +77,28 @@ const Experience = () => {
                     </div>
 
                     {/* Content shifted to the right */}
-                    <div className="expText pl-6 flex xl:gap-20 md:gap-10 gap-5 relative z-20">
+                    <div className="expText pl-6 flex xl:gap-20 md:gap-10 gap-5 relative z-20 w-full">
                       <div className="timeline-logo shrink-0">
-                        <img src={card.logoPath} alt="logo" />
+                        <img
+                          src={card.logoPath}
+                          alt={`${card.company} logo`}
+                          className="h-16 w-16 object-contain rounded-full"
+                        />
                       </div>
 
-                      <div>
+                      <div className="w-full">
                         <h1 className="font-semibold text-3xl">{card.title}</h1>
 
-                        {/* Company + Location side by side */}
-                        <div className="flex justify-between items-center mt-1">
-                          <p className="text-gray-300 text-sm italic">{card.company}</p>
-                          <p className="text-gray-400 text-sm">{card.location}</p>
+                        {/* Company + Location on the SAME row */}
+                        <div className="mt-1 flex items-center gap-4 w-full">
+                          {/* left grows to push location right */}
+                          <p className="text-gray-300 text-sm italic flex-1">
+                            {card.company}
+                          </p>
+                          {/* keep location on one line & right aligned */}
+                          <p className="text-gray-400 text-sm whitespace-nowrap text-right">
+                            {card.location}
+                          </p>
                         </div>
 
                         <p className="my-5 text-white-50">🗓️&nbsp;{card.date}</p>
