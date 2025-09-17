@@ -45,7 +45,7 @@ const techStackImgs = [
   { name: "Python Developer", imgPath: "/images/logos/python.svg" },
   { name: "Backend Develop er", imgPath: "/images/logos/node.png" },
   { name: "Interactive Developer", imgPath: "/images/logos/three.png" },
-  { name: "Java Developer", imgPath: "/images/java logo.svg" }
+  { name: "Java Developer", imgPath: "/images/java-original.svg" }
 ];
 
 const techStackIcons = [
@@ -53,7 +53,7 @@ const techStackIcons = [
   { name: "Python Developer", modelPath: "/models/python-transformed.glb", scale: 0.8, rotation: [0, 0, 0] },
   { name: "Backend Developer", modelPath: "/models/node-transformed.glb", scale: 5, rotation: [0, -Math.PI / 2, 0] },
   { name: "Interactive Developer", modelPath: "/models/three.js-transformed.glb", scale: 0.05, rotation: [0, 0, 0] },
-  { name: "Java Developer", modelPath: "/models/java-transformed.glb", scale: 0.05,  rotation: [Math.PI / 2, 0, -Math.PI / 8]  }
+  { name: "Java Developer", modelPath: "/models/java-original-transformed.glb", scale: 0.05,  rotation: [Math.PI / 2, 0, -Math.PI / 8]  }
 ]
 
 const expCards = [
