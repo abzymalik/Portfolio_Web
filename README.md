@@ -34,7 +34,7 @@ It serves as a professional platform to:
 - **GSAP-powered scroll interactions** to enhance storytelling  
 - Responsive design using **Tailwind CSS** and **Flexbox/Grid**  
 - Subtle **micro-interactions** for smoother user experience  
-- Multi-section layout: **About, Projects, Contact**  
+- Multi-section layout: **About, Experience, Projects, Skills**  
 - **Mobile-optimized 3D experience** without compromising performance  
 - Code structured for **reusability** and maintainability  
 
