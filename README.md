@@ -22,13 +22,13 @@ This is my personal 3d interactive portfolio website built to showcase my projec
 
 ### Features of the Portfolio Project
 
-	•	Animated 3D models and reveal animations
-	•	Realistic lighting and shadows
-	•	GSAP-powered scroll interactions
-	•	Responsive design with Tailwind CSS and Flexbox/Grid
-	•	Micro interactions for smoother user experience
-	•	Multi-section layout (About, Projects, Contact)
-	•	Mobile-optimized 3D experience
+•	Animated 3D models and reveal animations
+•	Realistic lighting and shadows
+•	GSAP-powered scroll interactions
+•	Responsive design with Tailwind CSS and Flexbox/Grid
+•	Micro interactions for smoother user experience
+•	Multi-section layout (About, Projects, Contact)
+•	Mobile-optimized 3D experience
 
 
 and many more, including code architecture and reusability.
