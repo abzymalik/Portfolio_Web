@@ -2,11 +2,6 @@
   <h3 align="center">Interactive portfolio website</h3>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
-
-1. 🤖 [Brief](#brief)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
 
 
 ## <a name="brief">🤖 Brief</a>
