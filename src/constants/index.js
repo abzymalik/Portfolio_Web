@@ -43,9 +43,9 @@ const abilities = [
 const techStackImgs = [
   { name: "React Developer", imgPath: "/images/logos/react.png" },
   { name: "Python Developer", imgPath: "/images/logos/python.svg" },
-  { name: "Backend Developer", imgPath: "/images/logos/node.png" },
+  { name: "Backend Develop er", imgPath: "/images/logos/node.png" },
   { name: "Interactive Developer", imgPath: "/images/logos/three.png" },
-  { name: "Project Manager", imgPath: "/images/logos/git.svg" }
+  { name: "Java Developer", imgPath: "/images/java logo.svg" }
 ];
 
 const techStackIcons = [
@@ -53,8 +53,8 @@ const techStackIcons = [
   { name: "Python Developer", modelPath: "/models/python-transformed.glb", scale: 0.8, rotation: [0, 0, 0] },
   { name: "Backend Developer", modelPath: "/models/node-transformed.glb", scale: 5, rotation: [0, -Math.PI / 2, 0] },
   { name: "Interactive Developer", modelPath: "/models/three.js-transformed.glb", scale: 0.05, rotation: [0, 0, 0] },
-  { name: "Project Manager", modelPath: "/models/git-svg-transformed.glb", scale: 0.05, rotation: [0, -Math.PI / 4, 0] }
-];
+  { name: "Java Developer", modelPath: "/models/java-transformed.glb", scale: 0.05,  rotation: [Math.PI / 2, 0, -Math.PI / 8]  }
+]
 
 const expCards = [
   {
@@ -65,7 +65,7 @@ const expCards = [
     date: "September 2025 - Present",
     responsibilities: [
       "Achieved a 25% increase in page load speed and higher engagement from 50+ active users through refactoring 12+ components and optimizing state management with React.",
-      "Reduced server load by 20% by eliminating 150+ redundant API requests using a Python script integrated with Firebase."
+      "Reduced server load by 20% by eliminating 150+ redundant API requests using a Python script integrated with Firebase." 
     ]
   },
   {
@@ -85,7 +85,7 @@ const expCards = [
     ]
   },
   {
-    // better to rename the file to cisco-logo.png or URL encode the space
+  
     logoPath: "/images/logos/cisco%20logo.png",
     title: "Software Engineer Intern",
     company: "Cisco",
