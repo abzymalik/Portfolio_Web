@@ -7,7 +7,7 @@
 
 ## Overview  
 
-This is my personal **3D interactive portfolio website** created to showcase my projects, skills, and experience as a Computer Science student. The website focuses on delivering a **clean UI**, **smooth animations**, and a **responsive design** that works seamlessly across devices.  
+This is my personal **interactive portfolio website** created to showcase my projects, skills, and experience as a Computer Science student. The website focuses on delivering a **clean UI**, **smooth animations**, and a **responsive design** that works seamlessly across devices.  
 
 It serves as a professional platform to:  
 - Share my technical and creative work  
