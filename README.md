@@ -3,7 +3,7 @@
   <p>A modern, animated, and fully responsive portfolio built with React, Three.js, and GSAP.</p>
 </div>
 
-Overview
+verview
 
 This is my personal 3D interactive portfolio website created to showcase my projects, skills, and experience as a Computer Science student. The website focuses on delivering a clean UI, smooth animations, and a responsive design that works seamlessly across devices.
 
