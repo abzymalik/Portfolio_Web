@@ -1,34 +1,41 @@
 <div align="center">
-  <h3 align="center">Interactive portfolio website</h3>
+  <h2>🌐 Interactive Portfolio Website</h2>
+  <p>A modern, animated, and fully responsive portfolio built with React, Three.js, and GSAP.</p>
 </div>
 
+Overview
 
+This is my personal 3D interactive portfolio website created to showcase my projects, skills, and experience as a Computer Science student. The website focuses on delivering a clean UI, smooth animations, and a responsive design that works seamlessly across devices.
 
-## <a name="brief">🤖 Brief</a>
+It serves as a professional platform to:
+	•	Share my technical and creative work
+	•	Highlight my academic and extracurricular experience
+	•	Provide an engaging way for recruiters and collaborators to connect with me
 
-This is my personal 3d interactive portfolio website built to showcase my projects, skills, and experience as a Computer Science student. The site is designed with a focus on clean UI, smooth animations, and responsiveness across devices.
+⸻
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+Tech Stack
+	•	React 19 — Component-based frontend architecture
+	•	Vite — Lightning-fast build tool and dev environment
+	•	Three.js & React Three Fiber — 3D rendering and interactive scenes
+	•	Drei — Useful helpers for React Three Fiber
+	•	GSAP + ScrollTrigger — High-performance animations and scroll interactions
+	•	Tailwind CSS (with Flexbox & Grid) — Responsive styling and layout
 
-- Three.js
-- React Three Fiber
-- Drei
-- GSAP
-- Tailwind CSS
-- Vite
-- React 19
+⸻
 
-## <a name="features">🔋 Features</a>
+Features
+	•	Animated 3D models and reveal animations
+	•	Realistic lighting and shadows for depth and immersion
+	•	GSAP-powered scroll interactions to enhance storytelling
+	•	Responsive design using Tailwind CSS and Flexbox/Grid
+	•	Subtle micro-interactions for smoother user experience
+	•	Multi-section layout: About, Projects, Contact
+	•	Mobile-optimized 3D experience without compromising performance
+	•	Code structured for reusability and maintainability
 
-### Features of the Portfolio Project
+⸻
 
-•	Animated 3D models and reveal animations
-•	Realistic lighting and shadows
-•	GSAP-powered scroll interactions
-•	Responsive design with Tailwind CSS and Flexbox/Grid
-•	Micro interactions for smoother user experience
-•	Multi-section layout (About, Projects, Contact)
-•	Mobile-optimized 3D experience
+Deployment
 
-
-and many more, including code architecture and reusability.
+The site is deployed with a custom domain at abdulmalik.org.uk and hosted on Hostinger.
