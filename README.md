@@ -25,7 +25,7 @@ This is my personal 3d interactive portfolio website built to showcase my projec
 
 ## <a name="features">🔋 Features</a>
 
-### Features of the 3D Portfolio Project
+### Features of the Portfolio Project
 
 👉 Animated 3D models and reveal animations
 
