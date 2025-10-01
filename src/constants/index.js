@@ -172,7 +172,6 @@ const socialImgs = [
   },
   { name: "github", imgPath: "/images/github_logo.png", link: "https://github.com/abzymalik" },
   { name: "linkedin", imgPath: "/images/linkedin.png", link: "https://www.linkedin.com/in/abzimo-malik/" },
-  { name: "cv", link: "/cv/AM_CV.pdf" }
 ];
 
 export {
