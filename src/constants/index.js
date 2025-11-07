@@ -58,7 +58,7 @@ const techStackIcons = [
 
 const expCards = [
   {
-    logoPath: "/images/logos/surrey_compsoc_logo.png",
+    logoPath: "/images/logos/CompSoc Logo.jpeg",
     title: "Vice President",
     company: "University of Surrey Computer Science Society",
     location: "Guildford, UK · On-Site",
@@ -69,8 +69,9 @@ const expCards = [
       "/images/hostinger-3.png"
     ],
     responsibilities: [
-      "Delivered and maintained user facing features for the society website through collaboration with committee members using React and JavaScript.",
-      "Improved UX by working closely with designers and applying design driven development practices."
+      "Led a 15-member committee to deliver events, hackathons, and cross-society collaborations enhancing engagement for 200+ students.",
+      "Secured partnership with Microsoft and IBM to sponsor alumni for networking, upskilling and ongoing collaboration.",
+      "Oversaw the society website revamp and event planning for Freshers’ Fair, improving visibility and digital presence."
     ]
   },
 
@@ -87,7 +88,7 @@ const expCards = [
   },
   
   {
-    logoPath: "/images/logos/surrey_compsoc_logo.png",
+    logoPath: "/images/logos/CompSoc Logo.jpeg",
     title: "Web Developer",
     company: "University of Surrey Computer Science Society",
     location: "Guildford, UK · Hybrid",
