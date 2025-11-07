@@ -103,7 +103,7 @@ const Experience = () => {
 
                         <p className="my-5 text-white-50">🗓️&nbsp;{card.date}</p>
 
-                        <p className="text-[#839CB5] italic">Responsibilities</p>
+                        <p className="text-[#839CB5] italic">Responsibilities & Achievments</p>
                         <ul className="list-disc ms-5 mt-5 flex flex-col gap-5 text-white-50">
                           {card.responsibilities.map((responsibility, index) => (
                             <li key={index} className="text-lg">
