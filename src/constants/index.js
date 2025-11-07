@@ -58,22 +58,11 @@ const techStackIcons = [
 
 const expCards = [
   {
-    logoPath: "/images/logos/tidaltasksailogo.png",
-    title: "Software Engineer Intern",
-    company: "TidalTasks AI",
-    location: "Ontario, Canada · Remote",
-    date: "September 2025 - Present",
-    responsibilities: [
-      "Achieved a 25% increase in page load speed and higher engagement from 50+ active users through refactoring 12+ components and optimizing state management with React.",
-      "Reduced server load by 20% by eliminating 150+ redundant API requests using a Python script integrated with Firebase." 
-    ]
-  },
-  {
     logoPath: "/images/logos/surrey_compsoc_logo.png",
-    title: "Web Developer",
+    title: "Vice President",
     company: "University of Surrey Computer Science Society",
-    location: "Guildford, UK · Hybrid",
-    date: "September 2025 - Present",
+    location: "Guildford, UK · On-Site",
+    date: "October 2025 - Present",
     uiShots: [
       "/images/logos/compsoc-logo.jpeg",
       "/images/Surrey-CompSoc.jpeg",
@@ -84,18 +73,35 @@ const expCards = [
       "Improved UX by working closely with designers and applying design driven development practices."
     ]
   },
+
   {
-  
-    logoPath: "/images/logos/cisco%20logo.png",
+    logoPath: "/images/logos/tidaltasksailogo.png",
     title: "Software Engineer Intern",
-    company: "Cisco",
-    location: "Reading, UK",
-    date: "June 2023 - July 2023",
+    company: "TidalTasks AI",
+    location: "Ontario, Canada · Remote",
+    date: "September 2025 - Present",
     responsibilities: [
-      "Led a team project to build an AI powered confidence coaching app for interview preparation.",
-      "Gained exposure to multiple departments including digital marketing and networking."
+      "Achieved a 25% increase in page load speed and higher engagement from 50+ active users through refactoring 12+ components and optimizing state management with React.",
+      "Reduced server load by 20% by eliminating 150+ redundant API requests using a Python script integrated with Firebase." 
     ]
-  }
+  },
+  
+  {
+    logoPath: "/images/logos/surrey_compsoc_logo.png",
+    title: "Web Developer",
+    company: "University of Surrey Computer Science Society",
+    location: "Guildford, UK · Hybrid",
+    date: "August 2025 - September 2025",
+    uiShots: [
+      "/images/logos/compsoc-logo.jpeg",
+      "/images/Surrey-CompSoc.jpeg",
+      "/images/hostinger-3.png"
+    ],
+    responsibilities: [
+      "Delivered and maintained user facing features for the society website through collaboration with committee members using React and JavaScript.",
+      "Improved UX by working closely with designers and applying design driven development practices."
+    ]
+  },
 ];
 
 const projects = [
